@@ -31,12 +31,12 @@ pip3 install opencv-python mediapipe RPi.GPIO
 python3 src/gesture_control.py
 ```
 
-## 🔌 GPIO Connections
+## GPIO Connections
 * LED1 → GPIO 23
 * LED2 → GPIO 24
 * GND → Resistors → LEDs
 
-## 🧠 Working
+## Working
 * Detects hand using MediaPipe
 * Identifies finger positions
 * Recognizes gestures:
@@ -44,7 +44,7 @@ python3 src/gesture_control.py
 * PEACE → LED2 ON
 * Other gestures → LEDs OFF
 
-## 🚀 Future Improvements
+## Future Improvements
 * Control multiple appliances
 * Add voice + gesture hybrid system
 * Integrate IoT dashboard
